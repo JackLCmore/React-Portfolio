@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <div>
-      <h1>About Me</h1>
+      <h1 className="pageHeader">About Me</h1>
       <p>
         Hi! My name is Jack Lunchick-Seymour, I am an aspiring Web Developer currently enrolled with UC Berkeley Extension's full-stack MERN bootcamp.
       </p>

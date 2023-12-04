@@ -38,7 +38,7 @@ export default function Contact() {
 
   return (
     <div>
-      <h1>Contact Me</h1>
+      <h1 className="pageHeader">Contact Me</h1>
       <form onSubmit={handleSubmit}>
           <div className="form-group row m-5">
           <label className="col-sm-2 col-form-label">Name</label>
@@ -58,7 +58,7 @@ export default function Contact() {
             <input value={message} name="message" onChange={handleInput} type="text" className="form-control" id="messageForm" placeholder="Message"></input>
           </div>
           </div>
-          <button type="submit">Submit</button>
+          <button type="submit" class="btn btn-primary">Submit</button>
       </form>
       {errorMessage && (
         <div>

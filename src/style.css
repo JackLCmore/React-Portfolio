@@ -38,14 +38,13 @@
     z-index: 2;
 }
 #darwnism:hover{
-    opacity: 0.5;
-    z-index: 0;
+    opacity: 0.3;
 }
 #darwnismText{
     position: absolute;
-    font-size: 64px;
-    left: 12%;
-    top: 33%;
+    font-size: 72px;
+    left: 13%;
+    top: 34%;
 }
 #smarter{
     border-radius: 10px;
@@ -56,14 +55,15 @@
     z-index: 2;
 }
 #smarter:hover{
-    opacity: 0.5;
-    z-index: 0;
+    opacity: 0.3;
 }
 #smarterText{
     position: absolute;
-    font-size: 18px;
-    left: 72%;
-    top: 73%;
+    text-align: center;
+    font-size: 48px;
+    width: 400px;
+    left: 71%;
+    top: 63%;
 }
 #gonutz{
     border-radius: 10px;
@@ -73,14 +73,13 @@
     z-index: 2;
 }
 #gonutz:hover{
-    opacity: 0.5;
-    z-index: 0;
+    opacity: 0.3;
 }
 #gonutzText{
     position: absolute;
     font-size: 48px;
-    left: 3.5%;
-    top: 69%;
+    left: 5%;
+    top: 71%;
 }
 #bloggins{
     border-radius: 10px;
@@ -91,14 +90,13 @@
     z-index: 2;
 }
 #bloggins:hover{
-    opacity: 0.5;
-    z-index: 0;
+    opacity: 0.3;
 }
 #blogginsText{
     position: absolute;
     font-size: 48px;
-    left: 37%;
-    top: 68%;
+    left: 39.2%;
+    top: 71%;
 }
 #editor{
     border-radius: 10px;
@@ -109,15 +107,15 @@
     z-index: 2;
 }
 #editor:hover{
-    opacity: 0.5;
-    z-index: 0;
+    opacity: 0.3;
 }
 #editorText{
     position: absolute;
-    font-size: 30px;
-    left: 52.5%;
-    top: 31%;
-    width: 50px;
+    font-size: 48px;
+    text-align: center;
+    left: 51.5%;
+    top: 27%;
+    width: 210px;
 }
 #jate{
     border-radius: 10px;
@@ -128,14 +126,15 @@
     z-index: 2;
 }
 #jate:hover{
-    opacity: 0.5;
-    z-index: 0;
+    opacity: 0.3;
 }
 #jateText{
     position: absolute;
-    font-size: 30px;
-    left: 71.5%;
-    top: 37%;
+    font-size: 48px;
+    text-align: center;
+    width: 200px;
+    left: 76.5%;
+    top: 25%;
 }
 #below-pics{
     position: absolute;
@@ -147,8 +146,24 @@
     height: 200px;
     padding-bottom:160px;
 }
+#me{
+    position: absolute;
+    font-size: 32px;
+    left: 20px;
+    top: -5px;
+}
+.nav{
+    justify-content: right;
+}
+.pageHeader{
+    position: relative;
+    left: 62%;
+    font-size: 56px;
+}
+h1{
+}
 footer{
     position: absolute;
-    left: 40%;
+    left: 45%;
     top: 90%;
 }
