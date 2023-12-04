@@ -5,12 +5,18 @@ export default function Portfolio() {
       <p>
         All of my work is available publicly through my gitHub, here are some of my favorite projects that I've worked on!
       </p>
-      <img id="darwnism" src="assets/images/Darwnism.png"></img>
-      <img id="gonutz" src="assets/images/gonutz-pic.png"></img>
-      <img id="smarter" src="assets/images/quiz.png"></img>
-      <img id="bloggins" src="assets/images/bloggins.png"></img>
-      <img id="editor" src="assets/images/editor.png"></img>
-      <img id="jate" src="assets/images/jate.png"></img>
+      <a href="https://github.com/Antedbell20/darwnism"><img id="darwnism" src="assets/images/Darwnism.png"></img></a>
+      <p id="darwnismText">Darwnism</p>
+      <a href="https://github.com/flimits/gonutzfordonutz"><img id="gonutz" src="assets/images/gonutz-pic.png"></img></a>
+      <p id="gonutzText">Gonutz Donutz</p>
+      <a href="https://github.com/JackLCmore/RUSmarterThanANoviceCoder"><img id="smarter" src="assets/images/quiz.png"></img></a>
+      <p id="smarterText">Are You Smarter Than A Novice Coder</p>
+      <a href="https://github.com/JackLCmore/bilbo-bloggins"><img id="bloggins" src="assets/images/bloggins.png"></img></a>
+      <p id="blogginsText">Bilbo Bloggins</p>
+      <a href="https://github.com/JackLCmore/employee-database-editor"><img id="editor" src="assets/images/editor.png"></img></a>
+      <p id="editorText">Employee Database Editor</p>
+      <a href="https://github.com/JackLCmore/JATE"><img id="jate" src="assets/images/jate.png"></img></a>
+      <p id="jateText">Just Another Text Editor</p>
     </div>
   );
 }
