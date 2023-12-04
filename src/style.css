@@ -1,5 +1,6 @@
 #selfie{
     position: absolute;
+    border-radius: 10px;
     height:45%;
     top: 25%;
     left:10%;
@@ -68,12 +69,18 @@
     left: 70%;
     top: 20%
 }
+#below-pics{
+    position: absolute;
+    top:80%;
+}
+#messageForm{
+    text-align: left;
+    vertical-align: top;
+    height: 200px;
+    padding-bottom:160px;
+}
 footer{
     position: absolute;
     left: 40%;
     top: 90%;
-}
-#below-pics{
-    position: absolute;
-    top:80%;
 }
