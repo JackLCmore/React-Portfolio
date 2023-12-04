@@ -15,9 +15,9 @@ export default function Contact() {
 
     if(inputType === "name"){
       setFormName(inputValue);
-    } else if(inputValue === "email"){
+    } else if(inputType === "email"){
       setEmail(inputValue);
-    } else if(inputValue === "message"){
+    } else {
       setMessage(inputValue);
     }
   }
@@ -25,15 +25,18 @@ export default function Contact() {
   function handleSubmit(event){
     event.preventDefault();
 
-    if(!validateEmail(emailInput) || !nameInput || !messageInput){
-      setErrorMessage('Please Complete All Input Forms!');
+    if(!validateEmail(email) || !formName || !message){
+      setErrorMessage('Please Enter A Valid Input For Each Form Component!');
       return;
     }
 
     setFormName('');
     setEmail('');
     setMessage('');
+
   };
+
+
 
   return (
     <div>
@@ -48,7 +51,7 @@ export default function Contact() {
           <div className="form-group row m-5">
           <label className="col-sm-2 col-form-label">E-mail</label>
           <div className="col-sm-10">
-            <input value={email} name="email" onChange={handleInput} type="email" className="form-control" id="colFormLabel" placeholder="E-mail"></input>
+            <input value={email} name="email" onChange={handleInput} type="email" className="form-control" placeholder="E-mail"></input>
           </div>
           </div>
           <div className="form-group row m-5" >
