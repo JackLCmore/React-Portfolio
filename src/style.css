@@ -2,26 +2,31 @@
     position: absolute;
     height:45%;
     top: 25%;
+    left:10%;
 }
 #games{
     position: absolute;
-    height:45%;
+    height:25%;
     top: 25%;
+    left: 45%;
 }
 #magic{
     position: absolute;
-    height:45%;
+    height:25%;
     top: 25%;
+    right: 15%;
 }
 #frisbee{
     position: absolute;
-    height:45%;
-    top: 25%;
+    height:25%;
+    top: 45%;
+    left:30%;
 }
 #friends{
     position: absolute;
-    height:45%;
-    top: 25%;
+    height:25%;
+    top: 47%;
+    right: 25%;
 }
 footer{
     position: absolute;

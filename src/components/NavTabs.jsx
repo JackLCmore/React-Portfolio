@@ -1,46 +1,45 @@
 
-function NavTabs({ currentPage, handlePageChange }) {
+import { Link, useLocation } from 'react-router-dom';
+
+function NavTabs() {
+  const currentPage = useLocation().pathname;
   return (
     <ul className="nav nav-tabs">
       <li className="nav-item">
-        <a
-          href="#about"
-          onClick={() => handlePageChange('About')}
+        <Link
+          to="/"
           
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
         >
           About
-        </a>
+        </Link>
       </li>
       <li className="nav-item">
-        <a
-          href="#portfolio"
-          onClick={() => handlePageChange('Portfolio')}
+        <Link
+          to="Portfolio"
           
           className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
         >
           Portfolio
-        </a>
+        </Link>
       </li>
       <li className="nav-item">
-        <a
-          href="#resume"
-          onClick={() => handlePageChange('Resume')}
+        <Link
+          to="Resume"
           
           className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
         >
           Resume
-        </a>
+        </Link>
       </li>
       <li className="nav-item">
-        <a
-          href="#contact"
-          onClick={() => handlePageChange('Contact')}
+        <Link
+          to="Contact"
           
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
           Contact
-        </a>
+        </Link>
       </li>
     </ul>
   );
