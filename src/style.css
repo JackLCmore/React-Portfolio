@@ -137,8 +137,8 @@
     top: 25%;
 }
 #below-pics{
-    position: absolute;
-    top:80%;
+    position: relative;
+    top:550px;
 }
 #messageForm{
     text-align: left;
@@ -157,10 +157,13 @@
 }
 .pageHeader{
     position: relative;
-    left: 62%;
+    margin-left: 62%;
     font-size: 56px;
 }
-h1{
+p{
+position: relative;
+text-align: center;
+left: 20%;
 }
 footer{
     position: absolute;
