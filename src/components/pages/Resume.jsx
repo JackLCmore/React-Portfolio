@@ -5,8 +5,10 @@ export default function Resume() {
       <p>
         For a link to my downloadable Resume, click <a href="https://docs.google.com/document/d/1dg_NRJsUIBZxLvDQt5issNcqnWnbdt-b/edit?usp=sharing&ouid=117394215640432619166&rtpof=true&sd=true">here.</a>
       </p>
+      <div id="skillsList">
       <h2>Skills</h2>
-      <ul>
+      __________________________________
+
         <li>Customer Service Excellence </li>
         <li>Problem Solving</li>
         <li>HTML 5</li>
@@ -20,7 +22,13 @@ export default function Resume() {
         <li>MySql</li>
         <li>MongoDB</li>
         <li>React</li>
-      </ul>
+      
+      <img id="Bootstrap" src="assets/images/Bootstrap.png"></img>
+      <img id="materialize" src="assets/images/materialize.png"></img>
+      <img id="MERN" src="assets/images/MERN.webp"></img>
+      <img id="SQL" src="assets/images/SQL.png"></img>
+      <img id="languages" src="assets/images/languages.png"></img>
+      </div>
     </div>
   );
 }

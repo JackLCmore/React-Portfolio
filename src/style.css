@@ -136,6 +136,11 @@
     left: 76.5%;
     top: 25%;
 }
+#skillsList{
+    position: relative;
+    top: 120px;
+    left: 40%;
+}
 #below-pics{
     position: relative;
     top:550px;
@@ -152,6 +157,39 @@
     left: 20px;
     top: -5px;
 }
+#Bootstrap{
+    position: relative;
+    width: 10%;
+    left:60%;
+    bottom: 460px;
+}
+#materialize{
+    position: relative;
+    width: 15%;
+    left:47.5%;
+    bottom: 280px;
+}
+#MERN{
+    position: relative;
+    width: 30%;
+    left:10%;
+    bottom: 100px;
+}
+#SQL{
+    position: relative;
+    width: 20%;
+    right: 25%;
+    bottom: 300px;
+}
+#languages{
+    position: relative;
+    width: 20%;
+    right:45%;
+    bottom: 500px;
+}
+#root{
+    font-family:'Quicksand', serif;
+}
 .nav{
     justify-content: right;
 }
@@ -160,10 +198,20 @@
     margin-left: 62%;
     font-size: 56px;
 }
+.btn-primary{
+    position: relative;
+    left: 5%;
+}
 p{
-position: relative;
-text-align: center;
-left: 20%;
+    position: relative;
+    text-align: center;
+    left: 20%;
+}
+form{
+    position: relative;
+    margin-top: 10%;
+    left: 18%;
+    text-align: center;
 }
 footer{
     position: absolute;
