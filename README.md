@@ -1,4 +1,4 @@
-# React-Portfolio
+# My Portfolio
 
 [Please Visit Portfolio](https://main--jlsportfolio.netlify.app)
 
