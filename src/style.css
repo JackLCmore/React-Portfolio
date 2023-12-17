@@ -29,24 +29,27 @@
     top: 47%;
     right: 25%;
 }
-#darwnism{
+#whitechapel{
     border-radius: 10px;
     position: absolute;
     top:20%;
+    left: 12%;
     height: 40%;
     opacity: 1;
     z-index: 2;
 }
-#darwnism:hover{
+#whitechapel:hover{
     opacity: 0.3;
 }
-#darwnismText{
+#whitechapelText{
     position: absolute;
+    text-align: center;
     font-size: 72px;
-    left: 13%;
-    top: 34%;
+    left: 16%;
+    top: 24%;
+    width: 400px;
 }
-#smarter{
+#darwnism{
     border-radius: 10px;
     position: absolute;
     height: 25%;
@@ -54,16 +57,16 @@
     left: 69%;
     z-index: 2;
 }
-#smarter:hover{
+#darwnism:hover{
     opacity: 0.3;
 }
-#smarterText{
+#darwnismText{
     position: absolute;
     text-align: center;
     font-size: 48px;
     width: 400px;
     left: 71%;
-    top: 63%;
+    top: 70%;
 }
 #gonutz{
     border-radius: 10px;
@@ -102,7 +105,7 @@
     border-radius: 10px;
     position: absolute;
     height: 40%;
-    left: 50%;
+    left: 50.5%;
     top: 20%;
     z-index: 2;
 }

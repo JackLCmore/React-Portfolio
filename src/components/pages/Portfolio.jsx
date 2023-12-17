@@ -9,8 +9,8 @@ export default function Portfolio() {
       <p id="darwnismText">Darwnism</p>
       <a href="https://github.com/flimits/gonutzfordonutz"><img id="gonutz" src="assets/images/gonutz-pic.png"></img></a>
       <p id="gonutzText">Gonutz Donutz</p>
-      <a href="https://github.com/JackLCmore/RUSmarterThanANoviceCoder"><img id="smarter" src="assets/images/quiz.png"></img></a>
-      <p id="smarterText">Are You Smarter Than A Novice Coder</p>
+      <a href="https://github.com/Armand57araujo/whiteChapelMysteries"><img id="whitechapel" src="assets/images/whitechapel.png"></img></a>
+      <p id="whitechapelText">White Chapel Mysteries</p>
       <a href="https://github.com/JackLCmore/bilbo-bloggins"><img id="bloggins" src="assets/images/bloggins.png"></img></a>
       <p id="blogginsText">Bilbo Bloggins</p>
       <a href="https://github.com/JackLCmore/employee-database-editor"><img id="editor" src="assets/images/editor.png"></img></a>
